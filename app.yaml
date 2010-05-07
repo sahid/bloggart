@@ -1,5 +1,5 @@
-application: bloggart-demo
-version: live
+application: sahid-us
+version: release
 runtime: python
 api_version: 1
 

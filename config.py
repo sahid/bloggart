@@ -1,11 +1,11 @@
 # Name of the blog
-blog_name = 'My Blog'
+blog_name = 'Sahid\'us Blog'
 
 # Your name (used for copyright info)
-author_name = 'the author'
+author_name = 'Sahid Orentino Ferdjaoui'
 
 # (Optional) slogan
-slogan = 'This is my blog'
+slogan = 'about my experiences on developpement...'
 
 # The hostname this site will primarially serve off (used for Atom feeds)
 host = 'localhost:8080'
@@ -25,12 +25,9 @@ post_path_format = '/%(year)d/%(month)02d/%(slug)s'
 # enough, you can edit themes/default/base.html instead.
 sidebars = [
   ('Blogroll', [
-    ('Nick Johnson', 'http://blog.notdot.net/'),
-    ('Bill Katz', 'http://www.billkatz.com/'),
-    ('Coding Horror', 'http://www.codinghorror.com/blog/'),
-    ('Craphound', 'http://craphound.com/'),
-    ('Neopythonic', 'http://www.neopythonic.blogspot.com/'),
-    ('Schneier on Security', 'http://www.schneier.com/blog/'),
+            ('Sahid\'us', 'http://sahid.us/'),
+            ('Nick Johnson', 'http://blog.notdot.net/'),
+            ('Bill Katz', 'http://www.billkatz.com/'),
   ]),
 ]
 
@@ -48,7 +45,7 @@ disqus_forum = None
 summary_length = 200
 
 # If you want to use Google Analytics, enter your 'web property id' here
-analytics_id = None
+analytics_id = 'UA-350555-15'
 
 # If you want to use PubSubHubbub, supply the hub URL to use here.
 hubbub_hub_url = 'http://pubsubhubbub.appspot.com/'
@@ -62,7 +59,7 @@ google_sitemap_ping = True
 # an html file' method, then set the NAME of the file below.
 # Note that you do not need to download the file provided - just enter its name
 # here.
-google_site_verification = None
+google_site_verification = 'googlead782d142cddad54'
 
 # Default markup language for entry bodies (defaults to html).
 default_markup = 'html'
@@ -71,7 +68,7 @@ default_markup = 'html'
 # one of 'manni', 'perldoc', 'borland', 'colorful', 'default', 'murphy',
 # 'vs', 'trac', 'tango', 'fruity', 'autumn', 'bw', 'emacs', 'pastie',
 # 'friendly', 'native'.
-highlighting_style = 'friendly'
+highlighting_style = 'tango'
 
 # Absolute url of the blog application use '/blog' for host/blog/ 
 # and '' for host/.Also remember to change app.yaml accordingly 
@@ -79,14 +76,14 @@ url_prefix = ''
 
 # Defines where the user is defined in the rel="me" of your pages.
 # This allows you to expand on your social graph.
-rel_me = None
+rel_me = 'Sahid Orentino Ferdjaoui'
 
 # For use a feed proxy like feedburne.google.com
-feed_proxy = None
+feed_proxy = 'http://feeds.feedburner.com/sahidus'
 
 # To use Google Friends Connect.                                          
 # If you want use Google Friends Connect, go to http://www.google.com/friendconnect/ 
 # and register your domain for get a Google Friends connect ID.
-google_friends_id = None
+google_friends_id = '03902503717303301851'
 google_friends_comments = True # For comments.
 google_friends_members  = True # For a members container.
