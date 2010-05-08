@@ -59,7 +59,7 @@ google_sitemap_ping = True
 # an html file' method, then set the NAME of the file below.
 # Note that you do not need to download the file provided - just enter its name
 # here.
-google_site_verification = 'googlead782d142cddad54'
+google_site_verification = 'googlead782d142cddad54.html'
 
 # Default markup language for entry bodies (defaults to html).
 default_markup = 'html'
@@ -90,4 +90,4 @@ google_friends_members  = True # For a members container.
 
 # To format the date of your post.
 # http://docs.djangoproject.com/en/1.1/ref/templates/builtins/#now
-date_format = "d F, Y"
+date_format = "d F, Y - f A"
