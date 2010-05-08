@@ -87,3 +87,7 @@ feed_proxy = 'http://feeds.feedburner.com/sahidus'
 google_friends_id = '03902503717303301851'
 google_friends_comments = True # For comments.
 google_friends_members  = True # For a members container.
+
+# To format the date of your post.
+# http://docs.djangoproject.com/en/1.1/ref/templates/builtins/#now
+date_format = "d F, Y"
